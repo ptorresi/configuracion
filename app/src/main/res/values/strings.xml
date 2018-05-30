@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">configuracion</string>
+    <string name="btn_Aceptar">Aceptar</string>
+    <string name="hnt_txtMail">Ingrese su email</string>
+    <string name="edt_hintNroDeLicencia">Ingrese Número de Licencia vinculado</string>
+    <string name="edt_Hin_NombreEmpresa">Ingrese el Nombre de Empresa propietaria:</string>
+    <string name="edtbasededatos">Ingrese base de datos</string>
+    <string name="edtUsuario">Ingrese Nombre de Usuario</string>
+    <string name="edtContraseña">Ingrese la contrasela.</string>
+</resources>
