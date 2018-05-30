@@ -29,5 +29,13 @@ public class activity_configuracion extends AppCompatActivity {
         edt_pws=findViewById(R.id.edtcontrasenia);
 
         SharedPreferences Config = getSharedPreferences("datos", Context.MODE_PRIVATE);
+        edt_email.setText(Config.getString("mail",""));
+        edt_Licencia.setText(Config.getString("licencia",""));
+        edt_Empresa.setText(Config.getString("empresa",""));
+        edt_BaseDatos.setText(Config.getString("basedatos",""));
+        edt_Usuario.setText(Config.getString("usuario",""));
+        edt_pws.setText(Config.getString("pws",""));
+
+
     }
 }
