@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="15dp"
-        android:layout_marginEnd="14dp"
+        android:layout_marginEnd="18dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="34dp"
         android:ems="10"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edtcontraseña"
+        android:id="@+id/edtcontrasenia"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="34dp"
@@ -47,7 +47,7 @@
         android:ems="10"
         android:hint="@string/edtUsuario"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/edtcontraseña"
+        app:layout_constraintBottom_toTopOf="@+id/edtcontrasenia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtBaseDeDatos" />
@@ -118,6 +118,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtcontraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcontrasenia" />
 
 </android.support.constraint.ConstraintLayout>
