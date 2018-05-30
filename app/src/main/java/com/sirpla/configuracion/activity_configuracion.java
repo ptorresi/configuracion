@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 
 public class activity_configuracion extends AppCompatActivity {
@@ -35,7 +36,19 @@ public class activity_configuracion extends AppCompatActivity {
         edt_BaseDatos.setText(Config.getString("basedatos",""));
         edt_Usuario.setText(Config.getString("usuario",""));
         edt_pws.setText(Config.getString("pws",""));
+    }
 
+    public void btn_Aceptar(View v){
+        SharedPreferences Configuaracion = getSharedPreferences("datos", Context.MODE_PRIVATE);
+        SharedPreferences.Editor Obj_editor = Configuaracion.edit();
+        Obj_editor.putString("mail",edt_email.getText().toString());
+        Obj_editor.putString("licencia",edt_Licencia.getText().toString());
+        Obj_editor.putString("empresa",edt_Empresa.getText().toString());
+        Obj_editor.putString("basedatos",edt_BaseDatos.getText().toString());
+        Obj_editor.putString("usuario",edt_Usuario.getText().toString());
+        Obj_editor.putString("pws",edt_pws.getText().toString());
 
+        Obj_editor.commit();
+        finish();
     }
 }
