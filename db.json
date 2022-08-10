@@ -25,22 +25,4 @@
       "telefono":"01145485265"
     }
     
-  ],
-  "choferes": [
-   {
-    "nombre": "Bruce",
-    "apellido": "Wayne",
-    "mail": "aguantelakriptonita@mail.com"
-  }
-  {
-    "nombre": "Clark",
-    "apellido": "Kent",
-    "mail": "batmanselacome@mail.com"
-  }
-{
-    "nombre": "Diana",
-    "apellido": "Prince",
-    "mail": "abajoelpatriarcado@mail.com"
-  }
-]
-}
+  ]}
