@@ -11,6 +11,8 @@
       "belongsTo": "Post"
     }
   },
+}
+{
   "clientes": [
     {
       "id": "0001",
@@ -19,7 +21,7 @@
       "documento": "20563214",
       "email": "jperez@mail.com",
       "telefono":"01156325221"
-    }
+    },
     {
       "id": "0002",
       "nombre": "Maria",
@@ -27,7 +29,7 @@
       "documento": "25634152",
       "email": "mrod@mail.com",
       "telefono":"01158898784"
-    }
+    },
     {
       "id": "0003",
       "nombre": "Carlos",
@@ -43,12 +45,12 @@
     "nombre": "Bruce",
     "apellido": "Wayne",
     "mail": "aguantelakriptonita@mail.com"
-  }
+  },
   {
     "nombre": "Clark",
     "apellido": "Kent",
     "mail": "batmanselacome@mail.com"
-  }
+  },
   {
     "nombre": "Diana",
     "apellido": "Prince",
