@@ -12,12 +12,12 @@
     }
   },
   "clientes": {
-      "id": { "string": {} },
-      "nombre": { "string": {} },
-      "apellido": { "string": {} },
-      "documento": { "string": {} },
-      "email": { "string": {} },
-      "telefono":{ "string": {} }
+      "id": { { "int": { "min": 0, "max": 1000000 } } },
+      "nombre": { { "regexp": "[A-Z][a-z]{5,10}" }},
+      "apellido": { { "regexp": "[A-Z][a-z]{5,10}" } },
+      "documento": { { "regexp": "[A-Z][a-z]{5,10}" }},
+      "email": { { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } },
+      "telefono":{ { "regexp": "[A-Z][a-z]{5,10}" }}
     }
    
 }
