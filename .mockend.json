@@ -11,50 +11,13 @@
       "belongsTo": "Post"
     }
   },
-}
-{
-  "clientes": [
-    {
-      "id": "0001",
-      "nombre": "Juan",
-      "apellido": "Perez",
-      "documento": "20563214",
-      "email": "jperez@mail.com",
-      "telefono":"01156325221"
-    },
-    {
-      "id": "0002",
-      "nombre": "Maria",
-      "apellido": "Rodriguez",
-      "documento": "25634152",
-      "email": "mrod@mail.com",
-      "telefono":"01158898784"
-    },
-    {
-      "id": "0003",
-      "nombre": "Carlos",
-      "apellido": "Calvo",
-      "documento": "18452123",
-      "email": "cc@mail.com",
-      "telefono":"01145485265"
+  "clientes": {
+      "id": { "string": {} },
+      "nombre": { "string": {} },
+      "apellido": { "string": {} },
+      "documento": { "string": {} },
+      "email": { "string": {} },
+      "telefono":{ "string": {} }
     }
-    
-  ],
-  "choferes": [
-   {
-    "nombre": "Bruce",
-    "apellido": "Wayne",
-    "mail": "aguantelakriptonita@mail.com"
-  },
-  {
-    "nombre": "Clark",
-    "apellido": "Kent",
-    "mail": "batmanselacome@mail.com"
-  },
-  {
-    "nombre": "Diana",
-    "apellido": "Prince",
-    "mail": "abajoelpatriarcado@mail.com"
-  }
-]
+   
 }
